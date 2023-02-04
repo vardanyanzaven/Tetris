@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="tetris-content">
+        <canvas id="board" class="game-board" width="200" height="400"></canvas>
+        <div class="game-info">
+            <div class="tetris-logo-div"><img class="tetris-logo-img" src="/tetris-logo.png" alt="Tetris"></div>
+            <div class="game-stats">
+                <p class="game-stat score">Score: <span class="score-num">0</span></p>
+                <p class="game-stat lines">Lines: <span class="lines-num">0</span></p>
+                <p class="game-stat level">Level: <span class="level-num">0</span></p>
+            </div>
+            <button class="play-btn">Play</button>
+        </div>
+    </div>
+    <div class="instructions-div">
+        <button class="instructions-btn">Instructions</button>
+    </div>
+    <script src="https://kit.fontawesome.com/d4d7da1ed6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
